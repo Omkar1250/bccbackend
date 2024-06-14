@@ -15,7 +15,7 @@ database.connect();
 app.use(express.json());
 app.use(
     cors({
-        origin: ["https://bombaycodingcompany.netlify.app/", "http://localhost:3000"],
+        origin: ["https://bombaycodingcompany.netlify.app", "http://localhost:3000"],
         credentials: true,
     })
 );
